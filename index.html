@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+	<link rel="icon" href="./image/icon.png">
+	<title>Minecraft Forum</title>
+</head>
+<style>
+	@font-face {
+  font-family: MinecraftiaRegular;
+  src: url('minecraftiaregular.otf-webfont.woff');
+}
+	
+	.container{
+	color: black;
+    margin : auto;
+    padding : 50px;
+    border-radius : 10px;
+	background-color: black;
+	width: 400px;
+	height: 480px;
+	background-attachment: fixed;
+     background-position: center top;
+	margin-top: 40px;
+	 opacity: 96%;
+	 position: center;
+}
+
+
+.login{
+	height: 60px;
+	width: 400px;
+   padding: 3px;
+	outline: 0;
+   font-family: 'MinecraftiaRegular';
+   font-weight: bold;
+   font-style: normal;
+   font-size: 22px;
+   color: white;
+   background-color: #168b4c;
+   border: solid 2px black;
+   margin: auto;
+	border: solid 2px black;
+	cursor: pointer;
+}
+
+.input{
+	 padding: 4px;
+    width: 300px;
+    outline: 0;
+    background: #161616;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 30px;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: 0.5s;
+
+	
+}
+.keeplogin {
+	color: white;
+	font-weight: 300px;
+	font-weight: bolder;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	border-color: black;
+
+		
+}
+.another {
+	text-align:center; 
+	font-weight: 0;
+	border-color: black;
+	cursor: pointer;
+}
+p {
+	color: white;
+	font-weight: 10;
+	font-weight: bolder;
+}
+	body{
+		margin: 0;
+		padding: 0;
+		background-image: url("./image/back.jpg");
+		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+		
+	}
+	img {
+		height: 100px;
+		margin: auto;
+		margin-left: 30px;
+		position: relative;
+		bottom: 90%;
+		
+
+	}
+	
+</style>
+<body>
+	
+<div class="container">
+	<div>
+		<img src="./image/tittle.png">
+		<br>
+		<p>NICKNAME OU EMAIL</p>
+		<input class="input" type="text" required>
+		<br>
+		<p>SENHA</p>
+		<input class="input" type="password" required>
+		<br>
+		<br>
+		<div class="keeplogin"><input type="checkbox" name="keepmelogin" value="Loggedin" checked="checked">
+		<label for="keepmelogin">Mantenha-me conectado</label> </div>
+        <br>
+		<button class="login">LOGIN</button>
+		<br>
+		<div class="another"><p>Não tem conta? Crie uma</p>
+			<br>
+ <p style="text-align: center;">CONTINUAR COM LOGIN →</p>
+		
+	</div>
+</div>
+
+</body>
+</html>
